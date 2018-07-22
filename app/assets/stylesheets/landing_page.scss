@@ -1,3 +1,17 @@
 .landing_page {
   font-family: 'Noto Sans', sans-serif;
 }
+
+.logo {
+  background-image: url('/remember_the_bacon.png');
+  background-repeat: no-repeat;
+  background-size: 179px auto;
+  // width: 179px;
+  // height: 83px;
+  margin: 12px 0 0 2px;
+  z-index: 2;
+}
+
+.welcome {
+  color: blue;
+}
