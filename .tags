@@ -88,6 +88,7 @@ license	/Users/walter/Documents/Programing/Ruby Projects/AppAcademy/remember_the
 .logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/remember_the_bacon/app/assets/stylesheets/landing_page.scss	/^.logo {$/;"	function	line:5
 .welcome	/Users/walter/Documents/Programing/AppAcademy/xlcurves/remember_the_bacon/app/assets/stylesheets/landing_page.scss	/^.welcome {$/;"	function	line:15
 .landing_page	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.landing_page {$/;"	function	line:1
-.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo-a {$/;"	function	line:8
-.logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo {$/;"	function	line:16
-.welcome	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.welcome {$/;"	function	line:21
+.navbar	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .navbar {$/;"	function	line:8
+.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo-a {$/;"	function	line:15
+.logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo {$/;"	function	line:23
+.welcome	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.welcome {$/;"	function	line:28
