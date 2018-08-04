@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Swiper from 'swiper';
-
 
 class LandingPage extends React.Component {
   render() {
