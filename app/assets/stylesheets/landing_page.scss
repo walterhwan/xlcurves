@@ -1,5 +1,5 @@
 .landing_page {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +33,9 @@
 .first-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 
   .logo-a {
     display: flex;
@@ -43,11 +46,23 @@
       height: 300px;
     }
   }
-
   .one-liner {
-    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     color: black;
   }
+  .button-group {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+
+    .btn + .btn {
+      margin-left: 50px;
+    }
+  }
+}
+
+.second-section {
+  display: flex;
+  background: #EAEAEC
 
 }
