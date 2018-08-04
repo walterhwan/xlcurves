@@ -119,9 +119,8 @@ license	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/package.json
 .nav-link	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^      .nav-link {$/;"	function	line:17
 .logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo-a {$/;"	function	line:25
 .first-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.first-section {$/;"	function	line:33
-.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .logo-a {$/;"	function	line:40
-.logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .logo {$/;"	function	line:44
-.one-liner	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .one-liner {$/;"	function	line:49
-.button-group	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .button-group {$/;"	function	line:53
-.btn + .btn	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .btn + .btn {$/;"	function	line:58
-.second-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.second-section {$/;"	function	line:64
+.one-liner	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .one-liner {$/;"	function	line:41
+.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .logo-a {$/;"	function	line:45
+.logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .logo {$/;"	function	line:49
+.btn	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .btn {$/;"	function	line:54
+.second-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.second-section {$/;"	function	line:59

@@ -9,14 +9,12 @@ class LandingPage extends React.Component {
         <NavBar />
 
         <div className="first-section">
+          <h1 className="one-liner">Area under the curve functions</h1>
+          <h1 className="one-liner">for Microsoft Excel</h1>
           <a className='logo-a'>
             <img className='logo' src='xlCurves_s.png' ></img>
           </a>
-          <h1 className="one-liner">One liner to describe xlCurves</h1>
-          <div className="button-group">
-            <button type="button" className="btn btn-outline-danger btn-lg">Download</button>
-            <button type="button" className="btn btn-outline-primary btn-lg">Take a Tour</button>
-          </div>
+          <button type="button" className="btn btn-outline-primary btn-lg">More</button>
         </div>
 
         <div className="second-section container-fluid">

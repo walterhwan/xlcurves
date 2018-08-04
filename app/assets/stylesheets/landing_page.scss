@@ -36,33 +36,28 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-top: 50px;
 
+  .one-liner {
+    font-size: 36px;
+    color: black;
+  }
   .logo-a {
     display: flex;
     justify-content: center;
 
     .logo {
-      width: 300px;
-      height: 300px;
+      width: 400px;
+      height: 400px;
     }
   }
-  .one-liner {
-    font-size: 36px;
-    color: black;
-  }
-  .button-group {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
-
-    .btn + .btn {
-      margin-left: 50px;
-    }
+  .btn {
+    margin: 10px;
   }
 }
 
 .second-section {
-  display: flex;
+  display: none;
   background: #EAEAEC
 
 }
