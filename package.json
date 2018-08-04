@@ -14,8 +14,8 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "swiper": "^4.3.3",
-    "webpack": "^3.4.1"
+    "webpack": "^3.4.1",
+    "yarn": "^1.9.4"
   },
   "engines": {
     "node": "9.8.0",
