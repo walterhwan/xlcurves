@@ -7,7 +7,7 @@ class LandingPage extends React.Component {
   render() {
     return (
       <div className='landing_page'>
-        <nav className="navbar navbar-expand-xl navbar-light bg-light">
+        <nav className="navbar navbar-expand-xl navbar-dark bg-dark sticky-top">
           <a className="navbar-brand" href="#">xlCurves</a>
           <ul className="navbar-nav">
             <li className="nav-item active">
@@ -31,13 +31,17 @@ class LandingPage extends React.Component {
               </div>
             </li>
           </ul>
-          <button type="button" className="btn btn-outline-danger">Buy</button>
+          <button type="button" className="btn btn-danger">Download</button>
         </nav>
-        <a className='logo-a'>
-          <img className='logo' src='xlCurves_s.png' ></img>
-        </a>
 
-        <h1 className='welcome'>Welcome to xlCurves</h1>
+        <div className="first-section">
+          <a className='logo-a'>
+            <img className='logo' src='xlCurves_s.png' ></img>
+          </a>
+          <h1 className='one-liner'>One liner to describe xlCurves</h1>
+        </div>
+        
+        <div className="first-section">
       </div>
     );
   }
