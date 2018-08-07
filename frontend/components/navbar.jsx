@@ -3,12 +3,17 @@ import React from 'react';
 class NavBar extends React.Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-xl navbar-dark bg-dark sticky-top">
-        <a className="navbar-brand" href="#">xlCurves</a>
+      <nav className="navbar navbar-expand-xl navbar-dark sticky-top">
+        <a className="navbar-brand" href="#">
+          <img className='logo' src='xlCurves_navbar.png' ></img>
+        </a>
         <ul className="navbar-nav">
           <li className="nav-item active">
-            <a className="nav-link" href="#">Learn<span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#">Home<span className="sr-only">(current)</span></a>
           </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Learn</a>
+            </li>
           <li className="nav-item">
             <a className="nav-link" href="#">Examples</a>
           </li>
@@ -27,7 +32,7 @@ class NavBar extends React.Component {
             </div>
           </li>
         </ul>
-        <button type="button" className="btn btn-danger">Download</button>
+        <button type="button" className="btn btn-outline-light">Privacy Policy</button>
       </nav>
     );
   }

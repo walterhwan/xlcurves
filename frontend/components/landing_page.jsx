@@ -8,13 +8,46 @@ class LandingPage extends React.Component {
       <div className='landing_page'>
         <NavBar />
 
-        <div className="first-section">
-          <h1 className="one-liner">Area under the curve functions</h1>
-          <h1 className="one-liner">for Microsoft Excel</h1>
-          <a className='logo-a'>
-            <img className='logo' src='xlCurves_s.png' ></img>
-          </a>
-          <button type="button" className="btn btn-outline-primary btn-lg">More</button>
+        <div className="first-section container-fluid">
+          <div className="content container-fluid">
+            <div className="jumbotron col-12 col-md-6">
+              <h1 className="title">xlCurves for Microsoft Excel</h1>
+              <p className="h5">Add area under the curve functions to Microsoft Excel's Function Wizard</p>
+              <hr className="my-4" />
+              <div className="btn-group">
+                <div><a className="btn btn-success" href="#" role="button">Tell me more</a></div>
+                <a className="privacy-policy" href="#">Privacy Policy</a>
+              </div>
+            </div>
+            <div className="carousel slide col-12 col-md-6" id="carouselExampleIndicators" data-ride="carousel">
+              <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <img className="d-block w-100" src="slide1.svg" alt="First slide" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                  </div>
+                </div>
+                <div className="carousel-item">
+                  <img className="d-block w-100" src="slide2.svg" alt="Second slide" />
+                  <div className="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                  </div>
+                </div>
+              </div>
+              <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="second-section container-fluid">

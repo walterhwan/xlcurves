@@ -10,7 +10,12 @@
     display: flex;
     justify-content: space-around;
     border-bottom: 1px solid #cccbcb;
+    padding: 5px 16px;
+    background: #3171B2;
 
+    .navbar-brand .logo {
+      height: 40px;
+    }
     .navbar-nav {
       display: flex;
       flex-direction: row;
@@ -18,6 +23,9 @@
         padding-right: 0.5rem;
         padding-left: 0.5rem;
       }
+    }
+    .btn {
+      border-radius: 500px;
     }
   }
 }
@@ -35,26 +43,39 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  padding-top: 50px;
+  width: 88%;
+  padding-top: 20px;
 
-  .one-liner {
-    font-size: 36px;
-    color: black;
-  }
-  .logo-a {
+  .content {
     display: flex;
-    justify-content: center;
-
-    .logo {
-      width: 400px;
-      height: 400px;
+    width: 100%;
+    flex-direction: row;
+    .jumbotron {
+      padding: 1rem 2rem;
+      background-color: #0000;
+      .title {
+        padding-bottom: 40px;
+      }
+      .btn-group {
+        display: flex;
+        flex-direction: column;
+        .btn {
+          border-radius: 500px;
+        }
+        .privacy-policy {
+          font-size: 12px;
+          padding: 10px 16px;
+        }
+      }
     }
   }
-  .btn {
-    margin: 10px;
+}
+@media screen and (max-width: 992px) {
+  .first-section {
+    width: 100%;
   }
 }
+
 
 .second-section {
   display: none;

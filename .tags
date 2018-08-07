@@ -115,12 +115,18 @@ author	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/package.json	
 license	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/package.json	/^  "license": "ISC"$/;"	function	line:30
 .landing_page	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.landing_page {$/;"	function	line:1
 .navbar	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .navbar {$/;"	function	line:8
-.navbar-nav	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .navbar-nav {$/;"	function	line:14
-.nav-link	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^      .nav-link {$/;"	function	line:17
-.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo-a {$/;"	function	line:25
-.first-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.first-section {$/;"	function	line:33
-.one-liner	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .one-liner {$/;"	function	line:41
-.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .logo-a {$/;"	function	line:45
-.logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .logo {$/;"	function	line:49
-.btn	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .btn {$/;"	function	line:54
-.second-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.second-section {$/;"	function	line:59
+.navbar-brand .logo	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .navbar-brand .logo {$/;"	function	line:16
+.navbar-nav	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .navbar-nav {$/;"	function	line:19
+.nav-link	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^      .nav-link {$/;"	function	line:22
+.btn	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .btn {$/;"	function	line:27
+.logo-a	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.logo-a {$/;"	function	line:33
+.first-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.first-section {$/;"	function	line:41
+.content	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .content {$/;"	function	line:49
+.jumbotron	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^    .jumbotron {$/;"	function	line:53
+.title	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^      .title {$/;"	function	line:56
+.btn-group	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^      .btn-group {$/;"	function	line:59
+.btn	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^        .btn {$/;"	function	line:62
+.privacy-policy	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^        .privacy-policy {$/;"	function	line:65
+@media screen and (max-width: 992px)	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^@media screen and (max-width: 992px) {$/;"	function	line:73
+.first-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .first-section {$/;"	function	line:74
+.second-section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.second-section {$/;"	function	line:80
