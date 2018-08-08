@@ -5,7 +5,7 @@ class NavBar extends React.Component {
     return (
       <nav className="navbar navbar-expand-xl navbar-dark sticky-top">
         <a className="navbar-brand" href="#">
-          <img className='logo' src='xlCurves_navbar.png' ></img>
+          <img className='logo' src='xlCurves_r.png' ></img>
         </a>
         <ul className="navbar-nav">
           <li className="nav-item active">
