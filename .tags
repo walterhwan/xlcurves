@@ -148,5 +148,5 @@ section	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/s
 .privacy-policy	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^        .privacy-policy {$/;"	function	line:62
 @media screen and (max-width: 992px)	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^@media screen and (max-width: 992px) {$/;"	function	line:70
 .main	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .main {$/;"	function	line:71
-.links	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.links {$/;"	function	line:76
-.h5	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .h5 {$/;"	function	line:83
+.links	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^.links {$/;"	function	line:77
+.h5	/Users/walter/Documents/Programing/AppAcademy/xlcurves/site/app/assets/stylesheets/landing_page.scss	/^  .h5 {$/;"	function	line:84
