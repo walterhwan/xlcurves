@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import MainGrid from "./main_grid";
+import PrivacyModal from "./privacy_modal";
 
 class LandingPage extends React.Component {
   render() {
@@ -24,6 +25,8 @@ class LandingPage extends React.Component {
         </section>
 
         <Footer />
+
+        <PrivacyModal />
       </div>
     );
   }
