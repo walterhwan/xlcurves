@@ -17,13 +17,8 @@ class MainGrid extends React.Component {
                 Tell me more
               </a>
             </div>
-            <div>
-              <a
-                className="privacy-policy"
-                data-toggle="modal"
-                data-target="#privacyModal"
-                href="#"
-              >
+            <div className="privacy-policy">
+              <a data-toggle="modal" data-target="#privacyModal" href="#">
                 Privacy Policy
               </a>
             </div>

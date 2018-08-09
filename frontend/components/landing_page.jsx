@@ -11,16 +11,24 @@ class LandingPage extends React.Component {
 
         <section className="links container-fluid">
           <div className="h5" href="#">
-            <u>Area under the curve</u>
+            <a href="#">
+              <u>Area under the curve</u>
+            </a>
           </div>
           <div className="h5" href="#">
-            <u>Pharmacokinetics</u>
+            <a href="#">
+              <u>Pharmacokinetics</u>
+            </a>
           </div>
           <div className="h5" href="#">
-            <u>Pharmacodynamics</u>
+            <a href="#">
+              <u>Pharmacodynamics</u>
+            </a>
           </div>
           <div className="h5" href="#">
-            <u>Pharmacomet</u>
+            <a href="#">
+              <u>Pharmacomet</u>
+            </a>
           </div>
         </section>
 
