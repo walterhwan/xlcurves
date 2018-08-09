@@ -1,26 +1,40 @@
-import React from 'react';
-import {
-  Route, withRouter, Link,
-  NavLink, Redirect, Switch
-} from 'react-router-dom';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { AuthRoute, ProtectedRoute } from '../util/route_util';
-import LandingPage from './landing_page';
-// import MainPage from './main/main_page';
-// import SessionLogin from './session/session_login';
-// import SessionSignup from './session/session_signup';
-// import SignupFormContainer from './session/signup_form_container.jsx';
-
+import LandingPage from "./landing_page";
+import NavBar from "./navbar";
 
 const App = () => (
-  <div>
-    <LandingPage />
+  <div className="app">
+    <NavBar />
+    <Switch>
+      <Route exact path="/" component={LandingPage} />
+      <Route component={PageNotFound} />
+    </Switch>
   </div>
 );
-// <Switch>
-//   <ProtectedRoute path='/main' component={MainPage} />
-//   <AuthRoute path='/login' component={SessionLogin} />
-//   <AuthRoute path='/signup' component={SessionSignup} />
-//   <AuthRoute path='/' component={LandingPage} />
-// </Switch>
+// <Route path="/grid" component={MainGrid} />
+
+const PageNotFound = () => (
+  <div className="page-not-found">
+    <div id="clouds">
+      <div className="cloud x1" />
+      <div className="cloud x1_5" />
+      <div className="cloud x2" />
+      <div className="cloud x3" />
+      <div className="cloud x4" />
+      <div className="cloud x5" />
+    </div>
+    <div className="_404-page">
+      <div className="_404">404</div>
+      <hr />
+      <div className="_1">THE PAGE</div>
+      <div className="_2">WAS NOT FOUND</div>
+      <a className="btn" href="#">
+        BACK TO HOME
+      </a>
+    </div>
+  </div>
+);
 
 export default App;

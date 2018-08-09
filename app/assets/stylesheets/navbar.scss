@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cccbcb;
+  padding: 4px 30px;
+  background: #3171b2;
+
+  .navbar-brand .logo {
+    height: 40px;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    .nav-link {
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+    }
+  }
+  .btn {
+    border-radius: 500px;
+  }
+}
