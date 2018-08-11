@@ -5,30 +5,50 @@ import PrivacyModal from "./privacy_modal";
 
 class LandingPage extends React.Component {
   render() {
+    let links = [
+      "Area under the curve",
+      "Pharmacokinetics",
+      "Pharmacodynamics",
+      "Pharmacometrics",
+      "No-compartmental Analysis",
+      "Superposition",
+      "YMAX",
+      "XMAX",
+      "LAMDA",
+      "HALFLIFE",
+      "AUC",
+      "AUCINF",
+      "AUMC",
+      "AUMCINF",
+      "YVALUE",
+      "YVALING"
+    ];
     return (
       <div className="landing_page">
         <MainGrid />
 
-        <section className="links container-fluid">
-          <div className="h5" href="#">
-            <a href="#">
-              <u>Area under the curve</u>
-            </a>
-          </div>
-          <div className="h5" href="#">
-            <a href="#">
-              <u>Pharmacokinetics</u>
-            </a>
-          </div>
-          <div className="h5" href="#">
-            <a href="#">
-              <u>Pharmacodynamics</u>
-            </a>
-          </div>
-          <div className="h5" href="#">
-            <a href="#">
-              <u>Pharmacomet</u>
-            </a>
+        <section className="links">
+          <div className="links-container">
+            <div className="h5" href="#">
+              <a href="#">
+                <u>Area under the curve</u>
+              </a>
+            </div>
+            <div className="h5" href="#">
+              <a href="#">
+                <u>Pharmacokinetics</u>
+              </a>
+            </div>
+            <div className="h5" href="#">
+              <a href="#">
+                <u>Pharmacodynamics</u>
+              </a>
+            </div>
+            <div className="h5" href="#">
+              <a href="#">
+                <u>Pharmacometrics</u>
+              </a>
+            </div>
           </div>
         </section>
 

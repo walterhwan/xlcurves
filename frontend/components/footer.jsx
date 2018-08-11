@@ -4,21 +4,16 @@ class Footer extends React.Component {
   render() {
     return (
       <section className="footer">
-        <div className="container col-xs-12 col-sm-12 col-md-12">
-          <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2">
-              <p>
-                <u>
-                  <a href="#">Chai & Associates, LLC</a>
-                </u>
-              </p>
-              <p>
-                <i className="fa fa-copyright" aria-hidden="true" /> All right
-                Reversed.
-              </p>
-            </div>
-            <hr />
-          </div>
+        <div className="footer-container">
+          <p>
+            <u>
+              <a href="#">Chai & Associates, LLC</a>
+            </u>
+          </p>
+          <p>
+            <i className="fa fa-copyright" aria-hidden="true" /> All right
+            Reversed.
+          </p>
         </div>
       </section>
     );
