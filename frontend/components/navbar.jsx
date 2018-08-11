@@ -6,7 +6,7 @@ class NavBar extends React.Component {
       <nav className="navbar navbar-expand-xl navbar-dark sticky-top">
         <div className="nav-container">
           <a className="navbar-brand" href="#">
-            <img className="logo" src="xlCurves_r.png" />
+            <img className="logo" src="xlCurves_r_small.png" />
           </a>
           <ul className="navbar-nav">
             <li className="nav-item active">

@@ -40,7 +40,7 @@ class MainGrid extends React.Component {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                className="d-block w-100"
+                className="d-block w-640"
                 src="slide1.svg"
                 alt="First slide"
               />
@@ -50,7 +50,7 @@ class MainGrid extends React.Component {
             </div>
             <div className="carousel-item">
               <img
-                className="d-block w-100"
+                className="d-block w-640"
                 src="slide2.svg"
                 alt="Second slide"
               />
