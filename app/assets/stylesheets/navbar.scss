@@ -1,9 +1,6 @@
 @import "variables";
 
 .navbar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
   border-bottom: 1px solid #cccbcb;
   background: $nav-bar-color;
 
@@ -12,7 +9,9 @@
     max-width: $max-screen-size;
     display: flex;
     justify-content: space-between;
-    padding: 4px 30px;
+    // padding: 4px 30px;
+    max-width: $max-screen-size;
+    margin: auto;
     background: $nav-bar-color;
 
     .navbar-brand .logo {

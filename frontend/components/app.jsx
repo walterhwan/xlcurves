@@ -15,39 +15,9 @@ const App = () => (
       <Route path="/grid" component={Test} />
       <Route component={PageNotFound} />
     </Switch>
-    <Switch>
-      <Route exact path="/" component={Links} />
-    </Switch>
     <Footer />
     <PrivacyModal />
   </div>
-);
-
-const Links = () => (
-  <section className="links">
-    <div className="links-container">
-      <div className="h5" href="#">
-        <a href="#">
-          <u>Area under the curve</u>
-        </a>
-      </div>
-      <div className="h5" href="#">
-        <a href="#">
-          <u>Pharmacokinetics</u>
-        </a>
-      </div>
-      <div className="h5" href="#">
-        <a href="#">
-          <u>Pharmacodynamics</u>
-        </a>
-      </div>
-      <div className="h5" href="#">
-        <a href="#">
-          <u>Pharmacometrics</u>
-        </a>
-      </div>
-    </div>
-  </section>
 );
 
 const PageNotFound = () => (
