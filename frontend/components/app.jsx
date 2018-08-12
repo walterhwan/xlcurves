@@ -3,17 +3,52 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import { AuthRoute, ProtectedRoute } from '../util/route_util';
 import LandingPage from "./landing_page";
 import NavBar from "./navbar";
+import Footer from "./footer";
+import PrivacyModal from "./privacy_modal";
+import Test from "./test";
 
 const App = () => (
   <div className="app">
     <NavBar />
     <Switch>
       <Route exact path="/" component={LandingPage} />
+      <Route path="/grid" component={Test} />
       <Route component={PageNotFound} />
     </Switch>
+    <Switch>
+      <Route exact path="/" component={Links} />
+    </Switch>
+    <Footer />
+    <PrivacyModal />
   </div>
 );
-// <Route path="/grid" component={MainGrid} />
+
+const Links = () => (
+  <section className="links">
+    <div className="links-container">
+      <div className="h5" href="#">
+        <a href="#">
+          <u>Area under the curve</u>
+        </a>
+      </div>
+      <div className="h5" href="#">
+        <a href="#">
+          <u>Pharmacokinetics</u>
+        </a>
+      </div>
+      <div className="h5" href="#">
+        <a href="#">
+          <u>Pharmacodynamics</u>
+        </a>
+      </div>
+      <div className="h5" href="#">
+        <a href="#">
+          <u>Pharmacometrics</u>
+        </a>
+      </div>
+    </div>
+  </section>
+);
 
 const PageNotFound = () => (
   <div className="page-not-found">

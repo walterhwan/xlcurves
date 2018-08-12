@@ -1,50 +1,31 @@
 @import "variables";
 
 html {
-  height: 100%;
+  height: 100vh;
 }
 body {
-  height: 100%;
+  height: 100vh;
 }
 main {
-  height: 100%;
+  height: 100vh;
 }
 .app {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+
+  font-family: "Roboto", sans-serif;
 }
 
 .landing_page {
-  font-family: "Roboto", sans-serif;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-}
-
-.main-grid {
+  flex-direction: row;
   width: 100%;
-  min-height: 480px;
   max-width: $max-screen-size;
-
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-flow: row;
-
-  // for IE 11
-  display: -ms-grid;
-  -ms-grid-columns: 1fr 1fr;
-  -ms-grid-rows: 1fr;
-
-  padding: 20px 80px 20px 80px;
+  padding: 20px 70px;
 
   .main-dpt {
-    // for IE 11
-    -ms-grid-column: 1;
-
     padding: 20px 20px;
     .title {
       padding-bottom: 40px;
@@ -65,8 +46,6 @@ main {
     }
   }
   .slide {
-    // for IE 11
-    -ms-grid-column: 2;
     background: #999999;
 
     .carousel-indicators li {
@@ -75,25 +54,24 @@ main {
   }
 }
 
-@media screen and (max-width: 1250px) {
-  .main-grid {
-    padding: 20px 5px;
-  }
-}
+// @media screen and (max-width: 1250px) {
+//   .main-grid {
+//     padding: 20px 5px;
+//   }
+// }
 
-@media screen and (max-width: 900px) {
-  .main-grid {
-    grid-template-rows: auto auto;
-    grid-template-columns: 1fr;
-    padding: 5px 0px;
-  }
-}
+// @media screen and (max-width: 900px) {
+//   .main-grid {
+//     grid-template-rows: auto auto;
+//     grid-template-columns: 1fr;
+//     padding: 5px 0px;
+//   }
+// }
 
 .links {
   display: flex;
   justify-content: center;
   width: 100%;
-  min-height: 120px;
   background: #548cd5;
 
   .links-container {
@@ -102,26 +80,13 @@ main {
     justify-content: center;
     width: 100%;
     max-width: $max-screen-size;
-
-    // display: grid;
-
-    // // for IE 11
-    // display: -ms-grid;
-    // -ms-grid-columns: 1fr;
-    // -ms-grid-rows: 1fr 1fr 1fr 1fr;
-    // grid-template-rows: 1fr;
-    // grid-template-columns: 1fr 1fr 1fr 1fr;
-
-    // grid-auto-flow: row;
-    // align-items: center;
-    // justify-items: center;
-
     background: #548cd5;
-    padding: 40px 0px;
+    padding: 20px 0px;
 
     .h5 {
       display: inline-block;
       padding: 5px 80px;
+      align-self: center;
     }
     a {
       color: white;
@@ -129,17 +94,75 @@ main {
   }
 }
 
-@media screen and (max-width: 950px) {
-  .links {
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-  }
-}
+// @media screen and (max-width: 950px) {
+//   .links {
+//     grid-template-rows: 1fr;
+//     grid-template-columns: 1fr 1fr;
+//   }
+// }
 
-@media screen and (max-width: 530px) {
-  .links {
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    grid-auto-flow: row;
-  }
+// @media screen and (max-width: 530px) {
+//   .links {
+//     grid-template-rows: 1fr;
+//     grid-template-columns: 1fr;
+//     grid-auto-flow: row;
+//   }
+// }
+
+html {
+  height: 100vh;
+}
+body {
+  height: 100vh;
+}
+main {
+  height: 100vh;
+}
+.app {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr $max-screen-size 1fr;
+  grid-template-rows: 70px repeat(5, min-content) 1fr;
+
+  // for IE 11
+  display: -ms-grid;
+  -ms-grid-columns: 1fr $max-screen-size 1fr;
+  -ms-grid-rows: 70px min-content min-content min-content min-content
+    min-content 1fr;
+}
+.navbar {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 1;
+  // background: red;
+}
+.landing_page {
+  grid-column: 2 / 3;
+  grid-row: 2 / 6;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  // background: blue;
+}
+.links {
+  grid-column: 1 / 4;
+  grid-row: 6 / 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 6;
+  -ms-grid-row-span: 1;
+  // background: green;
+}
+.footer {
+  grid-column: 1 / 4;
+  grid-row: 7 / 8;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 1;
+  // background: burlywood;
 }
