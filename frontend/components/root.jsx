@@ -3,13 +3,13 @@ import "core-js/fn/promise";
 import React from "react";
 import { Provider } from "react-redux";
 import App from "./app";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 const Root = ({ store }) => (
   <Provider store={store}>
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </Provider>
 );
 

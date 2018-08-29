@@ -1,39 +1,40 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 class NavBar extends React.Component {
   render() {
     return (
       <nav className="navbar navbar-expand-xl navbar-dark sticky-top">
         <div className="nav-container">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <img className="logo" src="xlCurves_r_small.png" />
-          </a>
+          </Link>
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home
+              <Link className="nav-link" to="/about">
+                What is xClurves
                 <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/">
                 Learn
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/">
                 Examples
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="#">
                 Support
-              </a>
+              </Link>
             </li>
             <li className="nav-item dropdown">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#"
+                to="#"
                 id="navbarDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -41,18 +42,18 @@ class NavBar extends React.Component {
                 aria-expanded="false"
               >
                 Features
-              </a>
+              </Link>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="#">
                   Action
-                </a>
-                <a className="dropdown-item" href="#">
+                </Link>
+                <Link className="dropdown-item" to="#">
                   Another action
-                </a>
+                </Link>
                 <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
+                <Link className="dropdown-item" to="#">
                   Something else here
-                </a>
+                </Link>
               </div>
             </li>
           </ul>

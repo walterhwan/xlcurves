@@ -1,6 +1,10 @@
 // @import url(https://fonts.googleapis.com/css?family=opensans:500);
 
 .page-not-found {
+  grid-row: 2 / 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+
   background: #33cc99;
   color: #fff;
   font-family: "Open Sans", sans-serif;

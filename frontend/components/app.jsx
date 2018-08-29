@@ -1,18 +1,19 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 // import { AuthRoute, ProtectedRoute } from '../util/route_util';
 import LandingPage from "./landing_page";
 import NavBar from "./navbar";
 import Footer from "./footer";
 import PrivacyModal from "./privacy_modal";
 import Functions from "./functions";
+import About from "./about";
 
 const App = () => (
   <div className="app">
     <NavBar />
     <Switch>
       <Route exact path="/" component={LandingPage} />
-      <Route path="/test" component={Functions} />
+      <Route path="/about" component={About} />
       <Route component={PageNotFound} />
     </Switch>
     <Footer />

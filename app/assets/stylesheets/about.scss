@@ -1,0 +1,26 @@
+@import "variables";
+
+.about {
+  grid-row: 2 / 3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: $max-screen-size;
+  margin: auto;
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 200px;
+    border: none;
+  }
+
+  .scroll-content {
+    padding: 20px 20px;
+  }
+}
