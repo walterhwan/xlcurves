@@ -1,38 +1,39 @@
 import React from "react";
+import { HashLink as Link } from "react-router-hash-link";
 
 class About extends React.Component {
   render() {
     return (
       <div className="about">
         <nav id="navbar-example3" className="navbar navbar-light bg-light">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="#">
             Navbar
-          </a>
+          </Link>
           <nav className="nav nav-pills flex-column">
-            <a className="nav-link" href="#item-1">
+            <Link className="nav-link" to="#item-1">
               Item 1
-            </a>
+            </Link>
             <nav className="nav nav-pills flex-column">
-              <a className="nav-link ml-3 my-1" href="#item-1-1">
+              <Link className="nav-link ml-3 my-1" to="#item-1-1">
                 Item 1-1
-              </a>
-              <a className="nav-link ml-3 my-1" href="#item-1-2">
+              </Link>
+              <Link className="nav-link ml-3 my-1" to="#item-1-2">
                 Item 1-2
-              </a>
+              </Link>
             </nav>
-            <a className="nav-link" href="#/about#item-2">
+            <Link className="nav-link" to="#item-2">
               Item 2
-            </a>
-            <a className="nav-link" href="#/about#item-3">
+            </Link>
+            <Link className="nav-link" to="#item-3">
               Item 3
-            </a>
+            </Link>
             <nav className="nav nav-pills flex-column">
-              <a className="nav-link ml-3 my-1" href="#item-3-1">
+              <Link className="nav-link ml-3 my-1" to="#item-3-1">
                 Item 3-1
-              </a>
-              <a className="nav-link ml-3 my-1" href="#item-3-2">
+              </Link>
+              <Link className="nav-link ml-3 my-1" to="#item-3-2">
                 Item 3-2
-              </a>
+              </Link>
             </nav>
           </nav>
         </nav>
@@ -51,11 +52,11 @@ class About extends React.Component {
             add-in. It adds 100+ functions to Excel’s Insert Function wizard, in
             7 categories:
           </p>
-          <h3 id="item-1-1">Computational method independent category:</h3>
+          <h3 id="item-1-1">Computational method independent category</h3>
           <ul>
             <li>classic</li>
           </ul>
-          <h3 id="item-1-2">Computational method dependent categories:</h3>
+          <h3 id="item-1-2">Computational method dependent categories</h3>
           <ul>
             <li>classic</li>
             <li>trapezoidal (LT)</li>
