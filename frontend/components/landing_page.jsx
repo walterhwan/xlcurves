@@ -1,26 +1,9 @@
 import React from "react";
-import Links from "./links";
+import Functions from "./functions";
+// import Links from "./links";
 
 class LandingPage extends React.Component {
   render() {
-    let links = [
-      "Area under the curve",
-      "Pharmacokinetics",
-      "Pharmacodynamics",
-      "Pharmacometrics",
-      "No-compartmental Analysis",
-      "Superposition",
-      "YMAX",
-      "XMAX",
-      "LAMDA",
-      "HALFLIFE",
-      "AUC",
-      "AUCINF",
-      "AUMC",
-      "AUMCINF",
-      "YVALUE",
-      "YVALING"
-    ];
     return (
       <section className="landing-page">
         <div className="about-xlcurves">
@@ -100,7 +83,7 @@ class LandingPage extends React.Component {
           </div>
         </div>
 
-        <Links />
+        <Functions />
       </section>
     );
   }

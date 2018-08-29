@@ -5,14 +5,14 @@ import LandingPage from "./landing_page";
 import NavBar from "./navbar";
 import Footer from "./footer";
 import PrivacyModal from "./privacy_modal";
-import Test from "./test";
+import Functions from "./functions";
 
 const App = () => (
   <div className="app">
     <NavBar />
     <Switch>
       <Route exact path="/" component={LandingPage} />
-      <Route path="/grid" component={Test} />
+      <Route path="/test" component={Functions} />
       <Route component={PageNotFound} />
     </Switch>
     <Footer />

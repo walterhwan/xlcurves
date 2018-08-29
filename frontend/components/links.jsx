@@ -7,7 +7,7 @@ class Links extends React.Component {
       "Pharmacokinetics",
       "Pharmacodynamics",
       "Pharmacometrics",
-      "No-compartmental Analysis",
+      "Non-compartmental",
       "Superposition",
       "YMAX",
       "XMAX",
@@ -18,7 +18,7 @@ class Links extends React.Component {
       "AUMC",
       "AUMCINF",
       "YVALUE",
-      "YVALING"
+      "YVALINF"
     ];
     return (
       <section className="links">
@@ -27,6 +27,18 @@ class Links extends React.Component {
     );
   }
 }
+
+const linksToDiv = links => {
+  let items = links.map((text, i) => {
+    return (
+      <div className="orb" key={`orb-${i}`}>
+        <a href="#">{text + "\t"}</a>
+      </div>
+    );
+  });
+
+  return items;
+};
 
 const linksToItem = (links, nCol) => {
   let items = links.map((text, i) => {
