@@ -5,7 +5,6 @@ import LandingPage from "./landing_page";
 import NavBar from "./navbar";
 import Footer from "./footer";
 import PrivacyModal from "./privacy_modal";
-import Functions from "./functions";
 import About from "./about";
 
 const App = () => (
