@@ -28,4 +28,11 @@
       padding-left: 25px;
     }
   }
+
+  .hashLinkTarget::before {
+    content: "";
+    display: block;
+    height: 90px;
+    margin: -90px 0 0;
+  }
 }

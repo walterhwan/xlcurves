@@ -1,46 +1,10 @@
 @import "variables";
 
-html {
-  height: 100%;
-}
-body {
-  height: 100%;
-}
-main {
-  height: 100%;
-}
-.app {
-  width: 100%;
-  height: 100%;
-
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70px minmax(min-content, 500px) 1fr;
-
-  // for IE 11
-  display: -ms-grid;
-  -ms-grid-columns: 1fr;
-  -ms-grid-rows: 70px minmax(min-content, 500px) 1fr;
-
-  font-family: "Roboto", sans-serif;
-}
-.navbar {
-  grid-row: 1;
-  -ms-grid-row: 1;
-}
 .landing-page {
   grid-row: 2 / 3;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
-}
-.footer {
-  grid-row: 3 / 4;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  height: 100%;
-}
 
-.landing-page {
   // display: flex;
   flex-direction: column;
   align-self: start;

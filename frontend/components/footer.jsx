@@ -18,6 +18,12 @@ class Footer extends React.Component {
               <li>Non-compartmental</li>
               <li>Superposition</li>
             </ul>
+            <ul className="docs" title="Documents">
+              <li>Installation</li>
+              <li>Main Concepts</li>
+              <li>Guides</li>
+              <li>FAQ</li>
+            </ul>
           </div>
           <hr className="my-4" />
           <div className="copyright">

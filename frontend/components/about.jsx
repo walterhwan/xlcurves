@@ -1,39 +1,67 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 
+/**
+ * This class is for adjusting the overlaps of navbar and in-page anchors
+ */
+class AnchorLink extends React.Component {
+  switchHashLinkTarget(targetID) {
+    return () => {
+      let els = document.querySelectorAll(".hashLinkTarget");
+      for (let i = 0; i < els.length; i++) {
+        els[i].classList.remove("hashLinkTarget");
+      }
+      let target = document.querySelector(targetID);
+      if (target) {
+        target.classList.add("hashLinkTarget");
+      }
+    };
+  }
+  render() {
+    return (
+      <Link
+        className={this.props.className}
+        to={this.props.to}
+        onClick={this.switchHashLinkTarget(this.props.to)}
+      >
+        {this.props.children}
+      </Link>
+    );
+  }
+}
 class About extends React.Component {
   render() {
     return (
       <div className="about">
         <nav id="navbar-example3" className="navbar navbar-light bg-light">
-          <Link className="navbar-brand" to="#">
+          <AnchorLink className="navbar-brand" to="#">
             Navbar
-          </Link>
+          </AnchorLink>
           <nav className="nav nav-pills flex-column">
-            <Link className="nav-link" to="#item-1">
+            <AnchorLink className="nav-link" to="#item-1">
               Item 1
-            </Link>
+            </AnchorLink>
             <nav className="nav nav-pills flex-column">
-              <Link className="nav-link ml-3 my-1" to="#item-1-1">
+              <AnchorLink className="nav-link ml-3 my-1" to="#item-1-1">
                 Item 1-1
-              </Link>
-              <Link className="nav-link ml-3 my-1" to="#item-1-2">
+              </AnchorLink>
+              <AnchorLink className="nav-link ml-3 my-1" to="#item-1-2">
                 Item 1-2
-              </Link>
+              </AnchorLink>
             </nav>
-            <Link className="nav-link" to="#item-2">
+            <AnchorLink className="nav-link" to="#item-2">
               Item 2
-            </Link>
-            <Link className="nav-link" to="#item-3">
+            </AnchorLink>
+            <AnchorLink className="nav-link" to="#item-3">
               Item 3
-            </Link>
+            </AnchorLink>
             <nav className="nav nav-pills flex-column">
-              <Link className="nav-link ml-3 my-1" to="#item-3-1">
+              <AnchorLink className="nav-link ml-3 my-1" to="#item-3-1">
                 Item 3-1
-              </Link>
-              <Link className="nav-link ml-3 my-1" to="#item-3-2">
+              </AnchorLink>
+              <AnchorLink className="nav-link ml-3 my-1" to="#item-3-2">
                 Item 3-2
-              </Link>
+              </AnchorLink>
             </nav>
           </nav>
         </nav>
